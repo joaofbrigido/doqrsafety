@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Aplicativo para celular que tem os melhores Checklists de Segurança do Trabalho"
+    />
+    <meta
+      name="keywords"
+      content="Checklists, segurança do trabalho, app segurança do trabalho, aplicativo de segurança do trabalho, 
+      checklists de segurança do trabalho, formulários de segurança do trabalho"
+    />
+    <meta name="author" content="DoqrSafety" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DoqrSafety | Checklists de Segurança do Trabalho</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="mainContainer menu">
+        <a href="#home">
+          <img
+            src="./assets/logoDoqrSafety.svg"
+            alt="Logo DoqrSafety"
+            href="#home"
+            class="logo"
+          />
+        </a>
+
+        <nav class="menuMobile">
+          <button class="btnMenuMobile" aria-haspopup="true">
+            Menu
+            <span class="iconHamburguer"></span>
+          </button>
+
+          <ul>
+            <li class="home"><a href="#home">Home</a></li>
+            <li class="checklists"><a href="#checklists">Checklists</a></li>
+            <li class="comoFunciona">
+              <a href="#comoFunciona">Como Funciona</a>
+            </li>
+            <li class="faq"><a href="#faq">Dúvidas Frequentes</a></li>
+            <li class="planos"><a href="#planos">Planos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mainContainer" id="home" data-section>
+      <div class="homeContent" data-anime="left">
+        <h1>
+          Tenha acesso aos melhores checklists de
+          <strong>Segurança do Trabalho</strong>
+        </h1>
+        <p>
+          Agilize seu dia a dia com o aplicativo <span>DoQR Safety</span>, seu
+          ASD - Assistente de Segurança Digital, com ele tenha em seu bolso
+          todos os checklists normativos de segurança, apresentações técnicas e
+          muito mais... <br />
+          <span>Teste Gratuitamente</span> por 7 dias.
+        </p>
+        <button class="mainButton" data-btnModal>Baixar o APP</button>
+      </div>
+
+      <img
+        src="./assets/tecnicoPrincipalComfundo.png"
+        alt="Engenheiro de segurança do trabalho segurando um Celular com o app DoqrSafety"
+        data-anime="right"
+      />
+    </main>
+
+    <section id="checklists" data-section>
+      <div class="mainContainer" data-anime="top">
+        <h2 class="titleWhite">Checklists Disponíveis</h2>
+
+        <ul class="checklistListaTitle">
+          <li>Brigada de Emergência</li>
+          <li>Checklists de Normas</li>
+          <li>Programa Comportamental</li>
+          <li>Inspeções Industriais</li>
+          <li>Indicadores Reativos</li>
+          <li>Saúde</li>
+          <li>Ficha de EPIs</li>
+          <li>Auditoria 5s</li>
+        </ul>
+
+        <ul class="checklistsListaContent">
+          <li>INSPEÇÃO do caminhão bombeiro</li>
+          <li>INSPEÇÃO DE EXTINTORES DE INCÊNDIO</li>
+          <li>INSPEÇÃO DE HIDRANTES / ALARMES DE INCÊNDIO</li>
+          <li>INSPEÇÃO EM MANGUEIRAS DE COMBATE À INCÊNDIO</li>
+          <li>INSPEÇÃO EM CHUVEIROS DE EMERGÊNCIA</li>
+          <li>REGISTRO DE UTILIZAÇÃO DA AMBULÂNCIA</li>
+          <li>REGISTRO DE UTILIZAÇÃO DO CAMINHÃO BOMBEIRO</li>
+          <li>RELATÓRIO DE SIMULADOS DE EMERGÊNCIA</li>
+          <li>LISTA DE PRESENÇA TREINAMENTO BRIGADA DE EMERGÊNCIA</li>
+        </ul>
+        <ul class="checklistsListaContent">
+          <li>NR10 - SEGURANÇA EM INSTALAÇÕES E SERVIÇOS EM ELETRICIDADE</li>
+          <li>NR-12 - SEGURANÇA NO TRABALHO EM MÁQUINAS E EQUIPAMENTOS</li>
+          <li>NR-13 - CALDEIRAS E VASOS DE PRESSÃO</li>
+          <li>NR-17 - ERGONOMIA</li>
+          <li>NR-31 - SEGURANÇA E SAÚDE DO TRABALHO NO CAMPO</li>
+        </ul>
+        <ul class="checklistsListaContent">
+          <li>DDS DIGITAL</li>
+          <li>ABORDAGENS COMPORTAMENTAIS</li>
+          <li>SAFETY TOUR</li>
+          <li>
+            INSPEÇÕES EM FERRAMENTAS
+            <small>(LIXADEIRA, MÁQUINA DE SOLDA, CINTO DE SEGURANÇA)</small>
+          </li>
+        </ul>
+        <ul class="checklistsListaContent">
+          <li>AUDITORIA NORMATIVA INDUSTRIAL</li>
+          <li>AUDITORIA NORMATIVA AGRÍCOLA</li>
+          <li>LIBERAÇÃO DE TRABALHO DE RISCO</li>
+          <li>APR - ANÁLISE PRELIMINAR DE RISCO</li>
+        </ul>
+        <ul class="checklistsListaContent">
+          <li>COMUNICAÇÃO DE INCIDENTES</li>
+          <li>INVESTIGAÇÃO DE ACIDENTES</li>
+        </ul>
+        <ul class="checklistsListaContent">
+          <li>REGISTRO DE VACINAS DOS COLABORADORES</li>
+          <li>ACOMPANHAMENTO DE COVID-19</li>
+          <li>ABSENTEÍSMO</li>
+          <li>BAFÔMETRO</li>
+          <li>ACOMPANHAMENTO DE SAÚDE DO TRABALHADOR</li>
+        </ul>
+        <ul class="checklistsListaContent">
+          <li>REGISTRO DE ENTREGA DE EPIS</li>
+        </ul>
+        <ul class="checklistsListaContent">
+          <li>CHECKLIST DE AUDITORIA DE 5S</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mainContainer" id="comoFunciona" data-section>
+      <h2 class="titleBlack">Como Funciona</h2>
+
+      <div class="comoFuncionaWrapper">
+        <div class="comoFuncionaContent" data-anime="left">
+          <img
+            src="./assets/ilustracaoRealizeInspecao.svg"
+            alt="Celular com um checklists de extintor de incendio com um homem olhando"
+          />
+          <div class="comoFuncionaText">
+            <span>Olha que fantástico!</span>
+            <h3>Realize Inspeções de forma Digital</h3>
+            <p>
+              Selecione, entre as dezenas de checklists disponíveis, os que
+              deseja preencher e responda-o através do seu celular, desfrutando
+              das funcionalidades de registro fotográfico das não conformidades,
+              possibilidade de assinatura na tela do smartphone, e muito mais.
+            </p>
+          </div>
+        </div>
+
+        <div class="comoFuncionaContent" data-anime="right">
+          <div class="comoFuncionaText">
+            <span>Recurso sensacional!</span>
+            <h3>Documentos de Segurança</h3>
+            <p>
+              Tenha na palma da mão documentos essenciais relacionados a
+              segurança do trabalho como: Normas de segurança, Apresentações
+              Técnicas, Planilhas de Controles, entre outros.
+            </p>
+          </div>
+          <img
+            src="./assets/ilustracaoResponda.svg"
+            alt="Celular com uma seta para baixo e um homem esperando"
+          />
+        </div>
+
+        <div class="comoFuncionaContent" data-anime="left">
+          <img
+            src="./assets/ilustracaoExportarCheck.svg"
+            alt="Celular com uma seta para baixo e um homem esperando"
+          />
+          <div class="comoFuncionaText">
+            <span>Veja como é Incrível!</span>
+            <h3>Exporte e Compartilhe Inspeções Realizadas</h3>
+            <p>
+              Através da plataforma web, Exporte em Excel ou PDF os checklists
+              respondidos ou compartilhe-os pelo whatsapp, e-mail ou como
+              quiser!
+            </p>
+            <button data-btnModal>
+              Testar por 7 dias Grátis
+              <img src="./assets/iconSetaLink.svg" alt="Icone de uma Seta" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" data-section>
+      <div class="mainContainer">
+        <h2 class="titleWhite">Dúvidas Frequentes</h2>
+
+        <dl class="faqLista" data-anime="top">
+          <dt>
+            <span>Como acessar o app?</span>
+            <img src="./assets/IconSetaFaq.svg" alt="Icone de seta" />
+          </dt>
+          <dd>
+            Após escolhido o plano, baixe o DoQR Safety na googlePlay ou App
+            Store, crie uma conta e tenha acesso à experiências incríveis com o
+            seu Assistente de Segurança Digital.
+          </dd>
+
+          <dt>
+            <span>O DoQR Safety é pra mim?</span>
+            <img src="./assets/IconSetaFaq.svg" alt="Icone de seta" />
+          </dt>
+          <dd>
+            O DoQR Safety é um aplicativo direcionado a profissionais do ramo de
+            segurança do trabalho (técnicos, engenheiros, coordenadores,
+            gerentes), os quais possuem uma rotina de trabalho cheia de
+            atribuições e que deseja FACILITAR, MELHORAR e AGILIZAR o seu dia a
+            dia modernizando a forma de trabalhar.
+          </dd>
+
+          <dt>
+            <span
+              >Posso testar com o plano FREE sem colocar Cartão de
+              crédito?</span
+            >
+            <img src="./assets/IconSetaFaq.svg" alt="Icone de seta" />
+          </dt>
+          <dd>
+            Com certeza! Usufrua ao máximo de todos os recursos disponíveis no
+            APP e teha uma experiência incrível!
+          </dd>
+          <dt>
+            <span>Os checklists podem ser modificados?</span>
+            <img src="./assets/IconSetaFaq.svg" alt="Icone de seta" />
+          </dt>
+          <dd>
+            O seu ASD - Assistente de Segurança Digital possui formulários
+            completos para cada tema da sua rotina diária, mas caso exista a
+            necessidade da personalização de seus formulários, clique aqui e
+            fale conosco.
+          </dd>
+          <dt>
+            <span>E se eu não encontrar o checklist que procuro?</span>
+            <img src="./assets/IconSetaFaq.svg" alt="Icone de seta" />
+          </dt>
+          <dd>
+            Não se sinta excluido, clique aqui e envie o formulário que deseja
+            que iremos analisar e incluí-lo na plataforma! Aah, e não se
+            preocupe, quando o checklist for inserido na plataforma, nós
+            notificaremos você via e-mail.
+          </dd>
+          <dt>
+            <span>Posso cancelar a qualquer momento?</span>
+            <img src="./assets/IconSetaFaq.svg" alt="Icone de seta" />
+          </dt>
+          <dd>
+            Se o aplicativo deixar de fazer sentido no seu dia a dia, é só
+            cancelar sua inscrição.
+          </dd>
+        </dl>
+      </div>
+    </section>
+
+    <section class="mainContainer" id="planos" data-section>
+      <h2 class="titleBlack">Planos</h2>
+
+      <div class="escolhaSeuPlano" data-anime="left">
+        <p class="escolhaSeuPlanoTitle">Escolha seu Plano</p>
+        <div>
+          <h3>FREE</h3>
+          <hr />
+          <h4>R$ 0,00<span>/7dias</span></h4>
+          <hr />
+          <button class="mainButton" data-btnModal>Iniciar</button>
+        </div>
+        <div>
+          <h3>BASIC</h3>
+          <hr />
+          <h4>R$ 19,90<span>/mês</span></h4>
+          <hr />
+          <a href="#" target="_blank" class="mainButton">Comprar</a>
+        </div>
+        <div>
+          <span class="recommended">Recomendado</span>
+          <h3>PLUS</h3>
+          <hr />
+          <h4>R$ 49,90<span>/mês</span></h4>
+          <hr />
+          <a href="#" target="_blank" class="mainButton">Comprar</a>
+        </div>
+        <div>
+          <h3>PREMIUM</h3>
+          <hr />
+          <h4>R$ 99,90<span>/mês</span></h4>
+          <hr />
+          <a href="#" target="_blank" class="mainButton">Comprar</a>
+        </div>
+      </div>
+
+      <div class="tableContainer" data-anime="right">
+        <table class="formulariosTable tableDefault">
+          <thead>
+            <tr>
+              <th>FORMULÁRIOS</th>
+              <th>Free</th>
+              <th>Basic</th>
+              <th>Plus</th>
+              <th>Premium</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>
+                <span>Brigada de Emergência</span>
+                <p>
+                  INSPEÇÃO DO CAMINHÃO BOMBEIRO, EXTINTORES, HIDRANTES / ALARMES
+                  DE INCÊNDIO...
+                </p>
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>Saúde</span>
+                <p>
+                  REGISTRO DE VACINAS DOS COLABORADORES, ACOMPANHAMENTO DE
+                  COVID-19, ABSENTEÍSMO...
+                </p>
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>Ficha de EPIs</span>
+                <p>REGISTRO DE ENTREGA DE EPIS</p>
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>Programa Comportamental</span>
+                <p>
+                  DDS DIGITAL, ABORDAGENS COMPORTAMENTAIS, Safety TOUR,
+                  INSPEÇÕES EM FERRAMENTAS.
+                </p>
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconX.svg" alt="Icone X(não incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>Indicadores Reativos</span>
+                <p>COMUNICAÇÃO DE INCIDENTES, INVESTIGAÇÃO DE ACIDENTES</p>
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconX.svg" alt="Icone X(não incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>Auditoria 5s</span>
+                <p>CHECKLIST DE AUDITORIA DE 5S</p>
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconX.svg" alt="Icone X(não incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>Checklist de Normas</span>
+                <p>NR-10, NR-12, NR-13, NR-17, NR-31</p>
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconX.svg" alt="Icone X(não incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconX.svg" alt="Icone X(não incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>Inspeções Industriais</span>
+                <p>
+                  AUDITORIA NORMATIVA INDUSTRIAL e Agrícola, LIBERAÇÃO DE
+                  TRABALHO DE RISCO, ANÁLISE PRELIMINAR...
+                </p>
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconX.svg" alt="Icone X(não incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconX.svg" alt="Icone X(não incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="tableContainer" data-anime="left">
+        <table class="documentosTable tableDefault">
+          <thead>
+            <tr>
+              <th>DOCUMENTOS</th>
+              <th>Free</th>
+              <th>Basic</th>
+              <th>Plus</th>
+              <th>Premium</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span>NRs</span>
+                <p>Normas regulamentadoras</p>
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>NHO</span>
+                <p>Normas de Higiene Ocupacional</p>
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconX.svg" alt="Icone X(não incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>IT</span>
+                <p>Instrução de Trabalho</p>
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconX.svg" alt="Icone X(não incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>Vídeos de segurança</span>
+                <p>Vídeos voltados a segurança do trabalho</p>
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconX.svg" alt="Icone X(não incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>Apresentações técnicas</span>
+                <p>Apresentações de segurança</p>
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconX.svg" alt="Icone X(não incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconX.svg" alt="Icone X(não incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>Planilhas de gerenciamento</span>
+                <p>Planilhas de gerenciamento em excel</p>
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconX.svg" alt="Icone X(não incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconX.svg" alt="Icone X(não incluso)" />
+              </td>
+              <td>
+                <img src="./assets//IconCheck.svg" alt="Icone Check(incluso)" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <a href="#">
+        <img
+          src="./assets/logoDoqrSafety.svg"
+          alt="Logo DoqrSafety"
+          class="logo"
+          data-anime="top"
+        />
+      </a>
+
+      <div class="btnsDownloadFooter" data-anime="top">
+        <a href="#">
+          <img src="./assets/iconApple.svg" alt="Logo da Apple" />
+          <span>Download na <strong>App Store</strong></span>
+        </a>
+        <a href="#">
+          <img src="./assets/iconGooglePlay.svg" alt="Logo da Google Play" />
+          <span>Download na <strong>Google Play</strong></span>
+        </a>
+      </div>
+
+      <ul class="social">
+        <li>
+          <a href="#" target="_blank">
+            <img src="./assets/IconInsta.svg" alt="Icone do Instagram" />
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            <img src="./assets/IconYT.svg" alt="Icone do youtube" />
+          </a>
+        </li>
+      </ul>
+
+      <p>
+        DoqrSafety - 2021 © Todos os direitos reservados -
+        <a target="_blank" href="politicas.html" class="politicas"
+          >Politica de Privacidade</a
+        >
+      </p>
+    </footer>
+
+    <section class="modalContainer">
+      <div class="modal">
+        <button class="btnCloseModal">X</button>
+        <div class="topModal">
+          <img
+            src="./assets/ilustracaoModal.svg"
+            alt="ilustração com gestores de segurança conversando"
+          />
+        </div>
+        <div class="modalContent">
+          <h3>Baixe o DoQR Safety e teste Gratuitamente por 7 dias</h3>
+          <p>Fazer o Download na:</p>
+          <div class="ctaModal">
+            <a href="#">
+              <img src="./assets/iconApple.svg" alt="App Store" />
+              App Store
+            </a>
+            <span>ou</span>
+            <a href="#">
+              <img src="./assets/iconGooglePlay.svg" alt="Google play" />
+              Google Play
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cookies" data-anime="left">
+      <p>
+        Nossa plataforma utiliza cookies 🍪 para garantir que você tenha a
+        melhor experiência . Se quiser saber mais, basta acessar nossa
+        <a target="_blank" href="politicas.html">Politica de Privacidade</a>
+      </p>
+      <button>Entendido</button>
+    </div>
+
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
